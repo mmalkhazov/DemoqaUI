@@ -1,13 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-13T16:02:27 MEZ" name="User" finished-at="2025-03-13T16:02:49 MEZ" duration-ms="22756">
+  <suite started-at="2025-03-20T17:50:32 MEZ" name="Quick" finished-at="2025-03-20T17:50:47 MEZ" duration-ms="14781">
     <groups>
     </groups>
-    <test started-at="2025-03-13T16:02:27 MEZ" name="User" finished-at="2025-03-13T16:02:49 MEZ" duration-ms="22756">
+    <test started-at="2025-03-20T17:50:32 MEZ" name="Quick1" finished-at="2025-03-20T17:50:47 MEZ" duration-ms="14781">
+      <class name="com.demoqa.tests.elements.TextBoxTests">
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:com.demoqa.tests.elements.TextBoxTests@3246fb96]" started-at="2025-03-20T17:50:32 MEZ" name="init" finished-at="2025-03-20T17:50:42 MEZ" duration-ms="9847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demoqa.tests.elements.TextBoxTests.keyBoardEventTest(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.demoqa.tests.elements.TextBoxTests@3246fb96]" started-at="2025-03-20T17:50:42 MEZ" name="precondition" finished-at="2025-03-20T17:50:44 MEZ" duration-ms="2198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="keyBoardEventTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.tests.elements.TextBoxTests@3246fb96]" started-at="2025-03-20T17:50:44 MEZ" name="keyBoardEventTest" finished-at="2025-03-20T17:50:47 MEZ" duration-ms="2652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Florian Wirtz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[florian@gm.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Munich]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keyBoardEventTest -->
+      </class> <!-- com.demoqa.tests.elements.TextBoxTests -->
+    </test> <!-- Quick1 -->
+  </suite> <!-- Quick -->
+  <suite started-at="2025-03-20T17:50:47 MEZ" name="User" finished-at="2025-03-20T17:51:14 MEZ" duration-ms="27206">
+    <groups>
+    </groups>
+    <test started-at="2025-03-20T17:50:47 MEZ" name="User" finished-at="2025-03-20T17:51:14 MEZ" duration-ms="27206">
       <class name="com.demoqa.tests.bookStore.LoginTests">
-        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:com.demoqa.tests.bookStore.LoginTests@19d481b]" started-at="2025-03-13T16:02:27 MEZ" name="init" finished-at="2025-03-13T16:02:36 MEZ" duration-ms="9565" status="PASS">
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:com.demoqa.tests.bookStore.LoginTests@5562c41e]" started-at="2025-03-20T17:50:47 MEZ" name="init" finished-at="2025-03-20T17:50:55 MEZ" duration-ms="8175" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +62,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:com.demoqa.tests.bookStore.LoginTests@19d481b]" started-at="2025-03-13T16:02:36 MEZ" name="precondition" finished-at="2025-03-13T16:02:37 MEZ" duration-ms="882" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.demoqa.tests.bookStore.LoginTests@5562c41e]" started-at="2025-03-20T17:50:55 MEZ" name="precondition" finished-at="2025-03-20T17:50:56 MEZ" duration-ms="1026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="loginPositiveTest()[pri:0, instance:com.demoqa.tests.bookStore.LoginTests@19d481b]" started-at="2025-03-13T16:02:37 MEZ" name="loginPositiveTest" finished-at="2025-03-13T16:02:40 MEZ" duration-ms="3392" status="PASS">
+        <test-method signature="loginPositiveTest()[pri:0, instance:com.demoqa.tests.bookStore.LoginTests@5562c41e]" started-at="2025-03-20T17:50:56 MEZ" name="loginPositiveTest" finished-at="2025-03-20T17:51:02 MEZ" duration-ms="5576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPositiveTest -->
       </class> <!-- com.demoqa.tests.bookStore.LoginTests -->
       <class name="com.demoqa.tests.bookStore.SearchBookTests">
-        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:com.demoqa.tests.bookStore.SearchBookTests@d29f28]" started-at="2025-03-13T16:02:40 MEZ" name="init" finished-at="2025-03-13T16:02:46 MEZ" duration-ms="5650" status="PASS">
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:com.demoqa.tests.bookStore.SearchBookTests@32ee6fee]" started-at="2025-03-20T17:51:02 MEZ" name="init" finished-at="2025-03-20T17:51:11 MEZ" duration-ms="9019" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,11 +83,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:com.demoqa.tests.bookStore.SearchBookTests@d29f28]" started-at="2025-03-13T16:02:46 MEZ" name="precondition" finished-at="2025-03-13T16:02:47 MEZ" duration-ms="1008" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.demoqa.tests.bookStore.SearchBookTests@32ee6fee]" started-at="2025-03-20T17:51:11 MEZ" name="precondition" finished-at="2025-03-20T17:51:11 MEZ" duration-ms="430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="searchBookPositiveTest()[pri:0, instance:com.demoqa.tests.bookStore.SearchBookTests@d29f28]" started-at="2025-03-13T16:02:47 MEZ" name="searchBookPositiveTest" finished-at="2025-03-13T16:02:49 MEZ" duration-ms="2165" status="PASS">
+        <test-method signature="searchBookPositiveTest()[pri:0, instance:com.demoqa.tests.bookStore.SearchBookTests@32ee6fee]" started-at="2025-03-20T17:51:11 MEZ" name="searchBookPositiveTest" finished-at="2025-03-20T17:51:14 MEZ" duration-ms="2965" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchBookPositiveTest -->

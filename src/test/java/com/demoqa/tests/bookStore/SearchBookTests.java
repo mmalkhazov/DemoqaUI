@@ -18,7 +18,7 @@ public class SearchBookTests extends TestBase {
 
     @Test
     public void searchBookPositiveTest(){
-        new ProfilePage(driver).typeKeyInSearchInput("git").verifyNameOfBook("Git");
+        new ProfilePage(driver).typeKeyInSearchInput("Git").verifyNameOfBook("Git");
 
     }
 }
